@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Artykuł</title>
+    </head>
+    <style>
+        h1, h2{
+            text-align: center;
+            margin: 20px
+        }
+
+        p{
+            margin: 5px;
+        }
+
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .article {
+            background-color: white;
+            box-shadow: 0 0 20px -5px black;
+            border-radius: 20px;
+            margin: 20px 10vw 20px 10vw;
+            padding: 15px;
+        }
+    </style>
+    <body>
+    </body>
+    
+    <script>
+        let elemDiv = document.createElement('div');
+        elemDiv.classList.add('article');
+        elemDiv.innerHTML = document.body.innerHTML;
+        document.body.innerHTML = '';
+        document.body.appendChild(elemDiv);
+    </script> 
+</html>

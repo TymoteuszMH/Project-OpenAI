@@ -6,6 +6,6 @@ The result can be shown in  ```podglad/podglad.html```, and template for showing
 
 ## Quick setup
 Project uses Python 3.12.
-To run project, you need to create ```key.py``` and create ```key='your-open-ai-api-key'``` variable in it.
+To run project, run ```pip install``` and ```pip install openai``` in project folder using python, then you need to create ```key.py``` and create ```key='your-open-ai-api-key'``` variable in it.
 Then all you need to do is run ```main.py```.
 Result will be saved in ```artykul.html```, than you can paste it into ```podglad/podglad.html``` in ``<body>`` section. 
